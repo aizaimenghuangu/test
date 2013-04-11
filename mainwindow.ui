@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>610</width>
+    <height>474</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>611</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>610</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="fileMenu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="action_quit"/>
+   </widget>
+   <widget class="QMenu" name="setupMenu">
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <addaction name="action_DBSetup"/>
+   </widget>
+   <widget class="QMenu" name="aboutMenu">
+    <property name="title">
+     <string>关于</string>
+    </property>
+    <addaction name="action_help"/>
+    <addaction name="action_about"/>
+   </widget>
+   <widget class="QMenu" name="queryMenu">
+    <property name="title">
+     <string>查询</string>
+    </property>
+    <addaction name="action_getKMNewsongList"/>
+    <addaction name="action_getNewSongList"/>
+    <addaction name="action_getPollingSongList"/>
+    <addaction name="action_getVipList"/>
+    <addaction name="action_getSongInfoList"/>
+    <addaction name="action_getSongFileList"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>测试</string>
+    </property>
+    <addaction name="action_runAutoTest"/>
+   </widget>
+   <addaction name="fileMenu"/>
+   <addaction name="setupMenu"/>
+   <addaction name="queryMenu"/>
+   <addaction name="menu"/>
+   <addaction name="aboutMenu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_runAutoTest"/>
+   <addaction name="action_getKMNewsongList"/>
+   <addaction name="action_getNewSongList"/>
+   <addaction name="action_getPollingSongList"/>
+   <addaction name="action_getVipList"/>
+   <addaction name="separator"/>
+   <addaction name="action_getSongInfoList"/>
+   <addaction name="action_getSongFileList"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_help">
+   <property name="text">
+    <string>帮助</string>
+   </property>
+  </action>
+  <action name="action_about">
+   <property name="text">
+    <string>关于软件</string>
+   </property>
+  </action>
+  <action name="action_setup">
+   <property name="text">
+    <string>系统设置</string>
+   </property>
+  </action>
+  <action name="action_quit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+   <property name="softKeyRole">
+    <enum>QAction::NoSoftKey</enum>
+   </property>
+  </action>
+  <action name="action_DBSetup">
+   <property name="text">
+    <string>数据库配置</string>
+   </property>
+  </action>
+  <action name="action_getKMNewsongList">
+   <property name="text">
+    <string>K米新歌列表</string>
+   </property>
+  </action>
+  <action name="action_getNewSongList">
+   <property name="text">
+    <string>新歌列表</string>
+   </property>
+  </action>
+  <action name="action_getPollingSongList">
+   <property name="text">
+    <string>公播列表</string>
+   </property>
+  </action>
+  <action name="action_getVipList">
+   <property name="text">
+    <string>VIP列表</string>
+   </property>
+  </action>
+  <action name="action_getSongInfoList">
+   <property name="text">
+    <string>歌曲信息列表</string>
+   </property>
+  </action>
+  <action name="action_getSongFileList">
+   <property name="text">
+    <string>歌曲文件列表</string>
+   </property>
+  </action>
+  <action name="action_testNewsongList">
+   <property name="text">
+    <string>生成新歌列表</string>
+   </property>
+  </action>
+  <action name="action_runAutoTest">
+   <property name="text">
+    <string>运行自动化测试</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

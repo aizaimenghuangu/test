@@ -1,0 +1,14 @@
+root      2311  0.1  0.6  35952 11972 ?        SL   10:08   0:00 /evideoktv/bin/servicemanager/dogservice
+fengyun   2312  0.0  0.2  43232  3976 ?        Sl   10:08   0:00 /evideoktv/bin/servicemanager/applauncher
+root      2315  0.3  0.2  43420  3884 ?        Sl   10:08   0:00 /evideoktv/bin/servicemanager/diskservice
+fengyun   2376  0.3  1.3 153004 26536 ?        Sl   10:08   0:00 /home/fengyun/evideoktv/bin/alarm/alarm
+fengyun   2378  0.2  1.1 134084 22528 ?        Sl   10:08   0:00 /home/fengyun/evideoktv/bin/notifycenter/notifycenter
+fengyun   2380  4.7  1.7 166348 33276 ?        Sl   10:08   0:04 /evideoktv/bin/servicemanager/servicemanager
+root      2414  0.2  0.7  58644 13980 ?        S    10:08   0:00 /evideoktv/bin/servicemanager/tsserver
+root      2420  0.1  0.2  34588  4392 ?        S    10:08   0:00 /evideoktv/bin/servicemanager/smftp
+root      2450  0.0  0.0 399804  1692 ?        Sl   10:08   0:00 /evideoktv/bin/servicemanager/vodserver
+fengyun   2460  0.2  0.9 123120 17440 ?        Sl   10:08   0:00 /evideoktv/bin/servicemanager/updateservice
+fengyun   2468  3.4  0.1  49236  3840 ?        Sl   10:08   0:03 /evideoktv/bin/servicemanager/stblogservice
+fengyun   2555  0.0  0.2  47508  5756 ?        Sl   10:08   0:00 /evideoktv/bin/servicemanager/tcptransservice
+fengyun   2568  0.2  0.3  50480  6828 ?        S    10:08   0:00 /evideoktv/bin/servicemanager/commservice
+fengyun   3407  4.6  0.6  88056 12772 ?        S    10:09   0:01 /evideoktv/bin/servicemanager/fileservice -style cleanlooks
